@@ -1,21 +1,17 @@
 # Illuminate
 Abstract— This report is based on the development of the survey service platform Illuminate. This main audience for this platform is the young and emerging talents in the field of computer science who are struggling to find which skills are in demand for the recent job market. The professionals who are well versed in the computer science field are asked to fill in a questionnaire. The data that we collect from the professionals are then visualized in the form of bar charts, pie charts and stacked plots etc. The data dashboard will help the students decide on which skills, language or platforms to choose. The platform also presents all the jobs related to the field and the relative job descriptions to give an idea of what the employers require for specific job roles. 
+
 I. INTRODUCTION 
  
 A. Problem Statement 
  
-     The field of computer science is ever emerging and continuously changing. To track which programming languages and platforms etc. are in demand is quite a task these days, especially for those who are breaking into this field as fresh graduates. For this students and recent graduates have to remain up to date with the newer technologies introduced. For example, Kubernetes is a new technology that was introduced in 2015 which provides the automation of operational tasks of container management. This technology is getting popular with every passing day. Furthermore, there is a large gap between all the skills that are available and the skills 
-that are highly demanded and appreciated by the employers 
+     The field of computer science is ever emerging and continuously changing. To track which programming languages and platforms etc. are in demand is quite a task these days, especially for those who are breaking into this field as fresh graduates. For this students and recent graduates have to remain up to date with the newer technologies introduced. For example, Kubernetes is a new technology that was introduced in 2015 which provides the automation of operational tasks of container management. This technology is getting popular with every passing day. Furthermore, there is a large gap between all the skills that are available and the skills that are highly demanded and appreciated by the employers 
  
 B. Objectives 
- 
-     This is where Illuminate comes in to rescue the students 
-from the difficult journey that lies ahead of them 
+ This is where Illuminate comes in to rescue the students from the difficult journey that lies ahead of them 
  
 •	Illuminate bridges the gap between the skills that are available and the skills that the employers or companies highly require from their prospective employees 
 •	The platform analyzes the data received from the working professionals and visualize these statistics in a manner that is understandable, and value added for the students 
- 
- 
 •	The students are also able to search jobs and the relative job roles to understand more about the companies thought process and what they desire from 
 them 
  
@@ -148,6 +144,3 @@ scalable if required.
 e)	Docker 
  
      Docker allows us to build, test and deploy the application quickly. So, docker is used to create the containerized image. As the application has frontend and backend, there are two images one for frontend and other for backend. There is an image for Mongo in docker hub which can be used for free. There are different versions of Mongo images available in the docker hub according to our project the required image is downloaded. To keep all these images in the same network a YML file is used. 
-
-
- 
