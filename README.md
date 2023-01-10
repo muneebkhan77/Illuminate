@@ -100,6 +100,8 @@ The data model is a model that defines the attributes and the respective data ty
 	Figure 6: Activity Diagram 
  
  
+     
+     
      Then users can access services like dashboard and job search. The dashboard provides the information about survey analytics and job search will give the information about the current job requirements about programming languages and technologies. Users can log out of the application when they are finished with the services. 
  
 4) Sequence Diagram 
