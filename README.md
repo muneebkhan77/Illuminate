@@ -96,6 +96,7 @@ The data model is a model that defines the attributes and the respective data ty
 	Figure 5: Use case Diagram 	
 	
 ![image](https://user-images.githubusercontent.com/64001052/211507700-67575767-0bb2-4d53-87c8-d493d79e773a.png)
+	
 	Figure 6: Activity Diagram 
  
  
@@ -106,16 +107,11 @@ The data model is a model that defines the attributes and the respective data ty
      The sequence diagram provides the information about the communication between the user and the database. When a user enters the login credentials the database validates the username and password entered by the user, if the login information is provided correctly then the database sends a message of login verified and the user can enter the application to use the services. 
  
  
-     ![image](https://user-images.githubusercontent.com/64001052/211508191-7503be12-3413-4e90-8ab0-cda937415867.png)
+ ![image](https://user-images.githubusercontent.com/64001052/211508191-7503be12-3413-4e90-8ab0-cda937415867.png)
 
 Figure 7: Sequence Diagram 
  
      If the user enters wrong credentials, then the database sends a message of invalid credentials and asks the user to re-enter the credentials. If at all they forget the credentials they can go to the forget password and change the password. After entering the application, if they request the data about the dashboard or job search then the database responds to it by displaying the data which is regularly updating based on the inputs.  
- 
- 
- 
- 
- 
  
  
 5) Technical Implementation Details 
